@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+}
+
+.ws-app {
+  background: rgb(255, 211, 218);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.ws-text {
+  font-size: 24px;
+  color: brown;
+}
+
+.ws-btns {
+  margin-top: 40px;
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+img {
+  width: 200px;
+
+}
+
+button {
+  border-radius: 10px;
+  width: 130px;
+  padding-block: 15px;
+  margin-inline: 10px;
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #ff005d;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin-block: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+
+
+button:hover,
+button:focus {
+  background-color: #ff3680;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+button+button {
+  margin-left: auto;
+  z-index: 1000;
+}
