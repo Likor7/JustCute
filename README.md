@@ -1,2 +1,0 @@
-# Sophia
-for my love
